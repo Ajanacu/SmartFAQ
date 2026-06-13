@@ -1,0 +1,92 @@
+.sidebar {
+  width: 260px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+/* Dark Theme */
+.app.dark .sidebar {
+  background: #171717;
+  color: white;
+}
+
+/* Light Theme */
+.app.light .sidebar {
+  background: #f3f3f3;
+  color: #222;
+  border-right: 1px solid #ddd;
+}
+
+/* Logo */
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* New Chat Button */
+
+.new-chat {
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.app.dark .new-chat {
+  background: #303030;
+  color: white;
+  border: none;
+}
+
+.app.dark .new-chat:hover {
+  background: #404040;
+}
+
+.app.light .new-chat {
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.app.light .new-chat:hover {
+  background: #ececec;
+}
+
+/* Theme Button */
+
+.theme-btn {
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.app.dark .theme-btn {
+  background: #303030;
+  color: white;
+  border: none;
+}
+
+.app.dark .theme-btn:hover {
+  background: #404040;
+}
+
+.app.light .theme-btn {
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.app.light .theme-btn:hover {
+  background: #ececec;
+}

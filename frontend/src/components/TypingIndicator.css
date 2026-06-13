@@ -1,0 +1,23 @@
+.typing{
+
+padding:15px;
+
+margin-left:20px;
+
+color:#bbbbbb;
+
+font-style:italic;
+
+animation:blink 1s infinite;
+
+}
+
+@keyframes blink{
+
+50%{
+
+opacity:.4;
+
+}
+
+}
