@@ -41,9 +41,15 @@ The application features a modern chat interface inspired by contemporary AI ass
 
 * Python
 * FastAPI
-* scikit-learn
-* NLTK / Semantic Similarity
+* SQLAlchemy
 * SQLite
+
+## Machine Learning
+
+* Sentence Transformers (all-MiniLM-L6-v2)
+* Scikit-learn
+* Cosine Similarity
+* Semantic Search
 
 ---
 
